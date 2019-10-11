@@ -1,0 +1,575 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	background: url(../imagenes/fondo-completo.png);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: courier;
+	margin: 10px;
+	
+
+}
+
+header{
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+
+}
+
+footer{
+	color: white;
+	background:white;
+	font-family: courier;
+	font-size: 40px;
+	background: rgba(0,0,0,0.5);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin-bottom: 10px;
+	width: 90%;
+	margin: auto;
+	
+}
+
+
+
+
+
+.mision,h3{
+	margin-top: 20px;
+}
+
+.vision,h3{
+	margin-top: 20px;
+}
+.valores,h3{
+	margin-top: 20px;
+}
+
+.mision,p{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.vision,p{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.valores,p{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.icon-user-plus{
+	font-size: 90px;
+	color: white;
+
+}
+
+.icon-binoculars{
+	font-size: 90px;
+	color: white;
+	
+}
+
+.icon-clipboard{
+	font-size: 90px;
+	color: white;
+	
+}
+
+
+
+.informacion-empresa{
+	background: url(../imagenes/generacion.jpg);
+	width: 90%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+.detalle-informacion{
+	display: flex;
+
+}
+
+.mision-letra{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.vision-letra{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.valores-letra{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.mision{
+	color: white;
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+
+
+}
+
+
+.vision{
+	color: white;
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+
+}
+
+.valores{
+	color: white;
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+}
+
+.segundocontenido img{
+	width: 90%;
+	height: auto;
+	margin: 10px;
+
+}
+
+
+
+
+body .primerainformacion{
+	background: #F2F2F2;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+body .segundainformacion{
+	background: #424242;
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.logo img{
+	width: 100px;
+	height: 120px;
+	margin-bottom: 50px;
+
+}
+
+.logo img:hover{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 0.9s;
+
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 25px;
+	margin-right: 10px;
+	border: 5px solid white;
+	border-radius: 20px;
+	padding: 2%;
+	background-color: white;
+}
+
+ul li a:hover{
+	color: white;
+	background-color: black;
+	
+}
+
+
+.foto1{
+	width: 90%;
+	height: auto;
+}
+
+.foto2{
+	width: 25%;
+	height: auto;
+}
+
+.foto3{
+	width: 25%;
+	height: auto;
+}
+
+.foto1:hover{
+	transition: 0.9s;
+	border-radius:30px;
+	margin-right: 30px;
+	cursor: pointer;
+	border-right: 10px solid #ce8d1d;
+	border-left: 10px solid #ce8d1d;
+
+}
+
+.foto2:hover{
+	transition: 0.9s;
+	border-radius:30px; 
+	margin-bottom: 30px;
+	cursor: pointer;
+	border-bottom: 10px solid #ce8d1d;
+}
+
+.foto3:hover{
+	transition: 0.9s;
+	border-radius:30px;
+	margin-left: 30px;
+	cursor: pointer;
+	border-left: 10px solid #ce8d1d;
+}
+
+.loprimero{
+
+	width: 1400px;
+	height: 500px;
+	background: url(../imagenes/portada5.png);
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	
+
+
+}
+
+.loprimero img{
+	width: 1400px;
+	height: 500px;
+}
+
+
+
+
+
+
+.barrera{
+	display: inline-block;
+	font-family: courier;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+
+}
+
+.barrera2{
+	display: inline-block;
+	font-family: courier;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.barrera3{
+	display: inline-block;
+	font-family: courier;
+	font-size: 20px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.todaslasbarreras a{
+	text-decoration: none;
+
+}
+
+.todaslasbarreras a:hover{
+	border-bottom: 10px solid white;
+	color: white;
+	font-size: 30px;
+}
+
+.barrera a{
+	color: black;
+}
+
+.barrera2 a{
+	color: black;
+}
+
+.barrera3 a{
+	color: black;
+}
+
+.portadas{
+	
+	width: 90%;
+	height: auto;
+	box-sizing: border-box;
+	
+}
+
+.primeraportada img{
+	width: 100%;
+
+}
+
+.primeraportada img:hover{
+	border: 10px solid rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.9s;
+
+}
+
+.formulario{
+	background: url(../imagenes/generacion.jpg);
+	background-size: 100% 100%;
+	font-size: 30px;
+	width: 90%;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	background-blend-mode: soft-light;
+	background-color: rgb(100,100,100);
+}
+
+.formulario h1{
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+
+}
+
+.formulario a{
+	text-decoration: none;
+}
+
+.formulario input{
+	font-size: 90%;
+	width: 50%;
+	font-family: courier;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px #2E2E2E;
+	border: 0px;
+}
+
+textarea{
+	resize: vertical;
+	min-height: 100px;
+	max-height: 200px;
+	width: 50%;
+	font-size: 90%;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px #2E2E2E;
+	border: 0px;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	color: white;
+	border: 0px;
+	background: #0174DF;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	background: #2E9AFE;
+}
+
+
+
+textarea:focus{
+	border:3px solid #1668c4;
+}
+
+.publicidaddeformulario span a{
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.publicidaddeformulario a{
+	text-decoration: none;
+	font-size: 100px;
+	
+}
+
+
+.mapa iframe{
+	width: 50%;
+	
+
+}
+
+.mapa iframe:hover{
+	width: 90%;
+	transition: 0.9s;
+	
+}
+
+.tienda-online h1{
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 50px;
+	background: url(../imagenes/solid.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 90%;
+
+}
+
+.la-tienda{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	background: url(../imagenes/generacion.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	padding-bottom: 2%;
+	background-blend-mode: soft-light;
+	background-color: rgb(100,100,100);
+
+
+}
+
+
+.poloches img{
+	width: 90%;
+	margin-top:5%; 
+
+}
+
+.poloches img:hover{
+	border-radius: 30px;
+	transition: 0.9s;
+	border-left: 20px solid white;
+	border-right: 20px solid black;
+	cursor: pointer;
+}
+
+.poloches1:hover{
+	margin-top: 3%;
+}
+
+.poloches2:hover{
+	margin-top: 5%;
+}
+
+.poloches3:hover{
+	margin-top: 7%;
+}
+
+.poloches-detalles{
+	color: white;
+	background: black;
+	margin: 2%;
+	padding: 2%;
+	width: 90%;
+	box-sizing: border-box;
+	
+}
+
+.poloches a{
+	text-decoration: none;
+}
+
+.icon-cart{
+	color: white;
+	font-size: 60px;
+	cursor: pointer;
+
+}
+
+.icon-cart:hover{
+	margin-left: 20px;
+	transition: 0.9s;
+	background: black;
+	margin: 8px;
+	padding: 8px;
+	font-size: 70px;
+}
+
+
+.servicios-texto{
+	 
+	background: rgba(0,0,0,0.5);
+	padding: 2%;
+	width: 85.9%;
+	color: white;
+	font-size: 30px;
+
+}
+
+.contactenos-info{
+	background: rgba(0,0,0,0.7);
+	padding: 2%;
+}
+
+.fb-comments{
+	background-color: white;
+	padding: 2%;
+	margin-left: 5%;
+}
+
+.logo-historia{
+	background-color: white;
+}
+
+.historia-text{
+	font-size: 40px;
+}
+
+.miembros{
+    display:flex;
+    flex-direction:row;
+}
+
+.equipo-completo {
+    padding: 2%;
+    background: url(../Imagenes/apple-fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-color: rgb(60,60,60);
+    background-blend-mode: soft-light;
+}
+
+.info-cesar {
+    background-color: black;
+    padding: 2%;
+    background-size: 100% 100%;
+    background:rgba(0,0,0,0.5);
+    background-blend-mode: soft-light;
+    color:white;
+}
+
+.info-yunior {
+    background-color: black;
+    padding: 2%;
+    background-size: 100% 100%;
+    background:rgba(0,0,0,0.5);
+    background-blend-mode: soft-light;
+    color:white;
+}
