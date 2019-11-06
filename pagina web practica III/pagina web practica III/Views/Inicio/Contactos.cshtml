@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Contactos";
+    Layout = "~/Views/Shared/Design.cshtml";
+}
+
+<center>
+
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30261.867676441965!2d-69.88072889109142!3d18.54094323160577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf88abd625d521%3A0x12b61659da6f19dc!2sSabana+Perdida!5e0!3m2!1ses!2sdo!4v1534643436674"  frameborder="0"  allowfullscreen></iframe>
+    </section>
+
+    <section class="formulario">
+        <form>
+            <input type="text" name="nombre" placeholder="Digite su nombre">
+            <input type="email" name="correo" placeholder="Digite su correo">
+            <textarea class="mensaje" placeholder="Digite su mensaje"></textarea><br>
+            <input type="submit" name="enviar" class="botonenviar">
+        </form>
+    </section>
+</center>

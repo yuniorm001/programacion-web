@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Css/Diseño.css" rel="stylesheet" type="text/css" />
+    <link href="~/Css/fonts.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+    <header>
+        <center>
+            <div class="foto-portada">
+                <img src="~/Imagenes/logo.jpg" />
+            </div>
+            <div class="menu-todo">
+                <nav class="menu-completo">
+                    <ul>
+                        <li>@Html.ActionLink("Inicio", "Index", "Inicio")</li>
+                        <li>@Html.ActionLink("Nosotros", "Nosotros", "Inicio")</li>
+                        <li>@Html.ActionLink("Galeria", "Galeria", "Inicio")</li>
+                        <li>@Html.ActionLink("Blog", "Blog", "Inicio")</li>
+                        <li>@Html.ActionLink("Contactos", "Contactos", "Inicio")</li>
+                    </ul>
+                </nav>
+            </div>
+        </center>
+
+        <div>
+            @RenderBody()
+        </div>
+
+        <center>
+            <footer>
+                <p>© 2019 My Mustacchio Todos Los Derechos Reservados</p>
+                <span class="icon-twitter"></span>
+                <span class="icon-facebook"></span>
+                <span class="icon-pinterest"></span>
+                <span class="icon-google"></span>
+            </footer>
+        </center>
+    </header>
+</body>
+</html>

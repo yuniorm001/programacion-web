@@ -1,0 +1,346 @@
+﻿body {
+    padding: 0px;
+    margin:0px;
+    background-color:white;
+}
+
+
+.menu-completo ul li{
+    display:inline-block;
+    margin-right:2%;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: cadetblue;
+}
+
+footer {
+    background-color: #343434;
+    padding: 3%;
+
+}
+
+    footer p {
+        color: white;
+        margin-bottom:2%;
+        font-weight:bold;
+    }
+
+footer span:hover{
+    cursor:pointer;
+}
+
+.icon-twitter{
+    color:white;
+    border:5px solid white;
+    font-size:25px;
+    padding:8px;
+    margin:0.5%;
+}
+
+.icon-facebook {
+    color: white;
+    border: 5px solid white;
+    font-size: 25px;
+    padding: 8px;
+    margin: 0.5%;
+}
+
+.icon-pinterest {
+    color: white;
+    border: 5px solid white;
+    font-size: 25px;
+    padding: 8px;
+    margin: 0.5%;
+}
+
+.icon-google {
+    color: white;
+    border: 5px solid white;
+    font-size: 25px;
+    padding: 8px;
+    margin: 0.5%;
+}
+
+
+
+.detalles-inicio {
+    background-image: url(../Imagenes/the-beacon.jpg);
+    background-size: 100% 100%;
+    padding:10%;
+}
+
+.detalle-foto h1{
+    background-color:white;
+    width:40%;
+    height:auto;
+}
+
+.detalle-foto h2 {
+    background-color: #343434;
+    width: 40%;
+    height: auto;
+    color: white;
+    padding: 1%;
+}
+
+.detalle-foto h3 {
+    background-color: #343434;
+    width: 40%;
+    height: auto;
+    color: white;
+    padding: 1%;
+}
+
+.detalle-foto h4 {
+    background-color: #343434;
+    width: 40%;
+    height: auto;
+    color: white;
+    padding: 1%;
+}
+
+.detalle-foto p {
+    color: white;
+    background-color: cadetblue;
+    width: 10%;
+    padding: 2%;
+    font-weight: bold;
+}
+
+    .detalle-foto p:hover {
+        cursor: pointer;
+        color: #343434;
+        background-color: white;
+        transition: 0.9s;
+        font-weight: bold;
+    }
+
+
+.detalles-inicio-2 img {
+    border: 5px solid #343434;
+}
+
+.detalles-inicio-2 {
+    padding:5%;
+}
+
+.fotos-inicio {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+}
+
+.ft-1 {
+    width: 90%;
+    height: 80%;
+}
+
+.ft-2 {
+    width: 90%;
+    height: 80%;
+}
+
+.ft-3 {
+    width: 90%;
+    height: 80%;
+}
+
+.formulario {
+    font-size: 30px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.2);
+}
+
+    
+
+    .formulario a {
+        text-decoration: none;
+    }
+
+    .formulario input {
+        font-size: 90%;
+        width: 50%;
+        font-family: courier;
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 0px;
+    }
+
+
+textarea {
+    resize: vertical;
+    min-height: 200px;
+    max-height: 200px;
+    width: 50%;
+    font-size: 90%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    background: #343434;
+    font-weight:bold;
+}
+
+    input[type="submit"]:hover {
+        cursor: pointer;
+        color: #343434;
+        background-color:white;
+    }
+
+.mapa iframe{
+    width:50%;
+    height:500px;
+}
+
+.escritos-sn{
+    background:url('../Imagenes/About-Us (1).jpg');
+    background-attachment:fixed;
+    background-size:100% 100%;
+    padding:8%;
+    width:auto;
+    height:auto;
+
+}
+
+.detalle-sn{
+    background:rgba(0,0,0,0.5);
+    padding:2%;
+    color:white;
+}
+
+.galeria{
+    background:rgba(0,0,0,0.2);
+    padding:2%;
+}
+
+.fotos-galeria {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fotos-galeria-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ft1-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft2-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft3-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft4-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft5-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft6-galeria {
+    width: 300px;
+    height: 300px;
+}
+
+.ft1-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition:0.9s;
+    padding:1%;
+}
+
+.ft2-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition: 0.9s;
+    padding: 1%;
+}
+
+.ft3-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition: 0.9s;
+    padding: 1%;
+}
+
+.ft4-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition: 0.9s;
+    padding: 1%;
+}
+
+.ft5-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition: 0.9s;
+    padding: 1%;
+}
+
+.ft6-galeria:hover {
+    cursor: pointer;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    transition: 0.9s;
+    padding: 1%;
+}
+
+.pronto{
+    width:100%;
+    height:1000px;
+}
+
+
+
+
+
+
